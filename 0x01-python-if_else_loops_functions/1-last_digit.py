@@ -2,8 +2,8 @@
 import random
 number = random.randint(-10000, 10000)   
 nb = int(repr(number)[-1])
-if number > -10 and number < 10:
-    nb = number
+if number < 0:
+    nb = int("-" + str(nb))
 x = "Last digit of "
 if nb > 5:
     print(x + str(number) + " is " + str(nb) + " and is greater than 5")
