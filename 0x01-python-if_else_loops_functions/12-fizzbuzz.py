@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    x=''
+    x = ''
     for nb in range(1, 101):
         if nb % 3 == 0 and nb % 5 == 0:
             x += "FizzBuzz "
