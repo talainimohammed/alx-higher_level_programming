@@ -16,3 +16,6 @@ for value in sys.argv:
     if i != 0:
         print("{:d}: {:s}".format(i, value))
     i += 1
+
+if __name__ != "__main__":
+    exit()
