@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 
+if __name__ != "__main__":
+    exit()
+
 str = "{:d} argument"
 nbarg = len(sys.argv) - 1
 if nbarg == 0:
@@ -16,6 +19,3 @@ for value in sys.argv:
     if i != 0:
         print("{:d}: {:s}".format(i, value))
     i += 1
-
-if __name__ != "__main__":
-    exit()
