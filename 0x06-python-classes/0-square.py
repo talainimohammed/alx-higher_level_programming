@@ -2,6 +2,7 @@
 
 """No Module"""
 
+
 class Square:
     """
     empty class Square
