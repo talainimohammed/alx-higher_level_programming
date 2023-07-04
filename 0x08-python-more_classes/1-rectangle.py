@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""NO Module"""
+
 
 class Rectangle():
     """rectangle class
