@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""No Module"""
+
 
 def text_indentation(text):
     """

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""No Module"""
+
 
 def add_integer(a, b=98):
     """
