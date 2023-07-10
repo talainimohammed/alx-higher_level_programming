@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """No Module"""
 
+
 class MyInt(int):
     """inversed int, overriding operator methods
     """

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """No Module"""
 
+
 def add_attribute(obj, name, value):
     """adds an attribute to the class
     """
