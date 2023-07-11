@@ -13,13 +13,14 @@ def main():
     """
     try:
         new_l = load_from_json_file('add_item.json')
-    except:
+    except Exception as ex:
         new_l = []
 
     new_l.extend([sys.argv[j] for j in range(0, len(sys.argv)) if j != 0])
     try:
         save_to_json_file(new_l, 'add_item.json')
-    except:
+    except Exception as ex:
         pass
+
 
 main()
