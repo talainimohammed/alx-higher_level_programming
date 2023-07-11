@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """No module"""
 
+
 def class_to_json(obj):
     """creates a json representation
     """
