@@ -19,12 +19,9 @@ class Rectangle(Base):
     def __str__(self):
         """override for str method
         """
-        build = "[{}] ({}) {}/{} - {}/{}".format(self.__class__.__name__,
-                                                   self.id,
-                                                   self.x,
-                                                   self.y,
-                                                   self.width,
-                                                   self.height)
+        build = "[{}] ({}) {}/{} - {}/{}".format(
+            self.__class__.__name__, self.id, self.x,
+            self.y, self.width, self.height)
         return build
 
     def area(self):
@@ -46,7 +43,7 @@ class Rectangle(Base):
             print(build)
 
     def update(self, *args, **kwargs):
-        """takes an *args argument 
+        """takes an *args argument
         """
         if args is not None and len(args) > 0:
             for j, arg in enumerate(args):

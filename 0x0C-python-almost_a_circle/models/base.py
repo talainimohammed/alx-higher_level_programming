@@ -107,7 +107,7 @@ class Base:
         try:
             with open(cn + '.json', 'r', encoding='utf-8') as myFile:
                 text = myFile.read()
-        except:
+        except Exception:
             return []
 
         inst_l = []
@@ -140,7 +140,7 @@ class Base:
         try:
             with open(cn + '.csv', 'r', encoding='utf-8') as myFile:
                 lines = myFile.readlines()
-        except:
+        except Exception:
             return []
 
         inst_l = []
